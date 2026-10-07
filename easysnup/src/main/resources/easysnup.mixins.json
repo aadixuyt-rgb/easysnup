@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.easysnup.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "BossBarHudAccessor",
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "ItemModelManagerMixin",
+    "ItemStackNameMixin",
+    "ItemStackTooltipMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

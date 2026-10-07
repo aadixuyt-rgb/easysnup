@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "easysnup",
+  "version": "${version}",
+  "name": "EasySnup",
+  "description": "Kostium Snupa - lokalny (klientowy) kostium, szafka i pomniejszenie po 3x shift.",
+  "authors": ["snupxb"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.easysnup.EasySnupClient"]
+  },
+  "mixins": ["easysnup.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "easysnup:variant": "${variant}"
+  }
+}
